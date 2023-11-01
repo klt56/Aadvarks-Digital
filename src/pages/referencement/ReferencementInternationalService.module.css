@@ -1,0 +1,53 @@
+.container {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.title {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contentBlock {
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.contentBlock h2 {
+    font-size: 1.8em;
+    color: #2980b9;
+    margin-bottom: 20px;
+}
+
+.contentBlock p {
+    font-size: 1.2em;
+    color: #34495e;
+}
+
+/* Styles pour l'effet parallaxe */
+.parallaxSection {
+    height: 400px;
+    margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.parallaxBackground { /* Notez le '1' pour correspondre à votre JSX */
+    background-image: url('/assets/parallaxe/next-gen-connected-world.jpg'); /* Modifiez le chemin de l'image selon vos besoins */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

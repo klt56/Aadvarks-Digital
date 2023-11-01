@@ -1,0 +1,32 @@
+/* Contact.module.css */
+
+.contactContainer {
+    padding: 2rem;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contactTitle {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contactInfo {
+    margin-top: 2rem;
+}
+
+.emailButton {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.emailButton:hover {
+    background-color: #0056b3;
+}

@@ -23,4 +23,4 @@ jobs:
       with:
         branch: gh-pages  # The branch the action should deploy to.
         folder: dist      # The folder the action should deploy.
-        token: ${{ secrets.GH_PAGES_DEPLOY }}  # The GitHub token or personal access token.
+        token: ${{ secrets. GH_Pages_1 }}  # The GitHub token or personal access token.

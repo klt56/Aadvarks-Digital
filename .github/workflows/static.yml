@@ -21,5 +21,6 @@ jobs:
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.4
       with:
+        token: ${{ secrets.GH_PAGES_DEPLOY }}
         branch: gh-pages # La branche où déployer
         folder: dist # Le dossier à déployer
